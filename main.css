@@ -1,0 +1,144 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #f3e0e0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 11em;
+   
+}
+
+.hero-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: black;
+    max-width: 900px;
+}
+
+.hero p {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: black;
+    max-width: 900px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.cta-button:hover{
+    border-color: black;
+    border-style: solid;
+}
+
+.features {
+    background-color: #f4f4f4;
+    padding: 4em 0;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2em;
+}
+
+.feature {
+    margin-top: 30px;
+}
+
+.feature img {
+    max-width: 200px;
+}
+
+.about {
+    padding: 4em 0;
+    text-align: center;
+    font-size: large;
+}
+
+.about h2 {
+    font-size: 2em;
+}
+
+.contact {
+    background-color: #333;
+    color: white;
+    padding: 4em 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2em;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact label {
+    display: block;
+    margin: 15px 0;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
